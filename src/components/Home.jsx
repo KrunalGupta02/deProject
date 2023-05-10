@@ -39,7 +39,7 @@ const Home = () => {
         </Container>
       </Navbar>
 
-      <div className="cards mt-3">
+      <div className="cards">
         <CardGroup>
           <Card>
             <Card.Img variant="top" src="holder.js/100px160" />
