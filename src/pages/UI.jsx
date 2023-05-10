@@ -1,11 +1,11 @@
 import React from "react";
 import ui from "../asset/ui.png";
-import Navbar from "../components/Navbar";
+import Header from "../components/Header";
 
 const UI = () => {
   return (
     <div>
-      <Navbar />
+      <Header />
       <figure>
         <img src={ui} />
       </figure>

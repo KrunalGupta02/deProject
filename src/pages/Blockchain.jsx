@@ -1,13 +1,13 @@
 import React from "react";
-import Navbar from "../components/Navbar";
-import Blockchain from "../asset/block.png";
+import Header from "../components/Header";
+import block from "../asset/block.png";
 
 const Blockchain = () => {
   return (
     <div>
-      <Navbar />
+      <Header />
       <figure>
-        <img src={Blockchain} alt="block" />
+        <img src={block} alt="block" />
       </figure>
     </div>
   );

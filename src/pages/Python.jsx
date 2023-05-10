@@ -1,11 +1,11 @@
 import React from "react";
 import py from "../asset/py.png";
-import { Navbar } from "react-bootstrap";
+import Header from "../components/Header";
 
 const Python = () => {
   return (
     <div>
-      <Navbar />
+      <Header />
       <figure>
         <img src={py} />
       </figure>

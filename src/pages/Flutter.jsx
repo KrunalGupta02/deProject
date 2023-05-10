@@ -1,11 +1,11 @@
 import React from "react";
-import Navbar from "../components/Navbar";
+import Header from "../components/Header";
 import flutter from "../asset/flutter.png";
 
 const Flutter = () => {
   return (
     <div>
-      <Navbar />
+      <Header />
       <figure>
         <img src={flutter} />
       </figure>

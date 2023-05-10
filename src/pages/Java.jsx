@@ -1,11 +1,11 @@
 import React from "react";
-import Navbar from "../components/Navbar";
+import Header from "../components/Header";
 import java from "../asset/java.png";
 
 const Java = () => {
   return (
     <div>
-      <Navbar />
+      <Header />
       <figure>
         <img src={java} />
       </figure>

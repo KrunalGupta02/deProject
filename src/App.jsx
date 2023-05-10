@@ -11,6 +11,16 @@ import { Route, Routes } from "react-router-dom";
 import ProtectedRoute from "./components/ProtectedRoute";
 import { AuthContextProvider } from "./context/AuthContext";
 
+import Frontend from "./pages/Frontend";
+import Backend from "./pages/Backend";
+import Blockchain from "./pages/Blockchain";
+import Flutter from "./pages/Flutter";
+import UI from "./pages/UI";
+import Python from "./pages/Python";
+import Java from "./pages/Java";
+import Cyber from "./pages/Cyber";
+import Android from "./pages/Android";
+
 function App() {
   const [loading, setLoading] = useState(false);
 
@@ -45,6 +55,15 @@ function App() {
                   </ProtectedRoute>
                 }
               ></Route>
+              <Route path="/front" element={<Frontend />} />
+              <Route path="/back" element={<Backend />} />
+              <Route path="/block" element={<Blockchain />} />
+              <Route path="/cyber" element={<Cyber />} />
+              <Route path="/flutter" element={<Flutter />} />
+              <Route path="/java" element={<Java />} />
+              <Route path="/python" element={<Python />} />
+              <Route path="/ui" element={<UI />} />
+              <Route path="/andr" element={<Android />} />
             </Routes>
           </AuthContextProvider>
         </div>

@@ -1,11 +1,11 @@
 import React from "react";
-import Navbar from "../components/Navbar";
+import Header from "../components/Header";
 import cyber from "../asset/cyber.png";
 
 const Cyber = () => {
   return (
     <div>
-      <Navbar />
+      <Header />
       <figure>
         <img src={cyber} />
       </figure>

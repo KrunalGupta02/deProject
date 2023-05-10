@@ -1,10 +1,10 @@
 import React from "react";
-import Navbar from "../components/Navbar";
 import android from "../asset/android.png";
+import Header from "../components/Header";
 const Android = () => {
   return (
     <div>
-      <Navbar />
+      <Header />
       <figure>
         <img src={android} />
       </figure>
