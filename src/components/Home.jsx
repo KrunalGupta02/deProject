@@ -18,8 +18,8 @@ const Home = () => {
       </div>
 
       <div className="cards">
-        <CardGroup>
-          <Card>
+        <CardGroup className="my-4">
+          <Card style={{ margin: "12px" }}>
             <Card.Img
               variant="top"
               className="aspect-video"
@@ -40,7 +40,7 @@ const Home = () => {
               </Button>
             </Card.Body>
           </Card>
-          <Card style={{ width: "18rem" }}>
+          <Card style={{ margin: "12px" }}>
             <Card.Img
               variant="top"
               className="aspect-video"
@@ -61,7 +61,7 @@ const Home = () => {
               </Button>
             </Card.Body>
           </Card>
-          <Card>
+          <Card style={{ margin: "12px" }}>
             <Card.Img
               variant="top"
               className="aspect-video"
@@ -82,8 +82,8 @@ const Home = () => {
             </Card.Body>
           </Card>
         </CardGroup>
-        <CardGroup>
-          <Card>
+        <CardGroup style={{ display: "flex", flexWrap: "wrap" }}>
+          <Card style={{ margin: "12px" }}>
             <Card.Img
               variant="top"
               className="aspect-video"
@@ -103,9 +103,10 @@ const Home = () => {
               </Button>
             </Card.Body>
           </Card>
-          <Card>
+          <Card style={{ margin: "12px" }}>
             <Card.Img
               variant="top"
+              className="aspect-video"
               src="https://www.jrebel.com/sites/default/files/image/2020-05/image-blog-revel-top-java-tools.jpg"
             />
             <Card.Body>
@@ -123,9 +124,10 @@ const Home = () => {
               </Button>
             </Card.Body>
           </Card>
-          <Card>
+          <Card style={{ margin: "12px" }}>
             <Card.Img
               variant="top"
+              className="aspect-video"
               src="https://plus.unsplash.com/premium_photo-1674506652942-409ccf9ee0f8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1315&q=80"
             />
             <Card.Body>
@@ -143,10 +145,11 @@ const Home = () => {
             </Card.Body>
           </Card>
         </CardGroup>
-        <CardGroup>
-          <Card>
+        <CardGroup style={{ display: "flex", flexWrap: "wrap" }}>
+          <Card style={{ margin: "12px" }}>
             <Card.Img
               variant="top"
+              className="aspect-video"
               src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRku6Jfp5TuXEqAU8B3eORY-BxPgPH5ul0jc19eVJqz&s"
             />
             <Card.Body>
@@ -158,14 +161,13 @@ const Home = () => {
                 functional apps. Join our course and start creating your own
                 apps in no time!
               </Card.Text>
-              <Button variant="primary" onClick={() => navigate("/flutter")}>
-                View
-              </Button>
+              <Button variant="primary">View</Button>
             </Card.Body>
           </Card>
-          <Card>
+          <Card style={{ margin: "12px" }}>
             <Card.Img
               variant="top"
+              className="aspect-video"
               src="https://img.freepik.com/free-vector/gradient-ui-ux-background_23-2149052117.jpg"
             />
             <Card.Body>
@@ -178,14 +180,13 @@ const Home = () => {
                 our course will equip you with the tools to design exceptional
                 user experiences
               </Card.Text>
-              <Button variant="primary" onClick={() => navigate("/ui")}>
-                View
-              </Button>
+              <Button variant="primary">View</Button>
             </Card.Body>
           </Card>
-          <Card>
+          <Card style={{ margin: "12px" }}>
             <Card.Img
               variant="top"
+              className="aspect-video"
               src="https://blog.eduonix.com/wp-content/uploads/2018/09/Scientific-Python-Scipy.jpg"
             />
             <Card.Body>
