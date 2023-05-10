@@ -50,8 +50,8 @@ const Home = () => {
 
       <div className="cards">
         
-      <CardGroup>
-          <Card>
+      <CardGroup className="my-4">
+          <Card style={{ margin : '12px' }}>
             <Card.Img variant="top" className="aspect-video" src="https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA1L3JtMzczYmF0Y2gxNi1ibG9nYmFubmVyLTA5LmpwZw.jpg"
                 />
             <Card.Body>
@@ -65,7 +65,7 @@ const Home = () => {
               <Button variant="primary">View</Button>
             </Card.Body>
           </Card>
-          <Card style={{ width: '18rem' }} >
+          <Card style={{ margin : '12px' }} >
             <Card.Img variant="top" className="aspect-video" src="https://as2.ftcdn.net/v2/jpg/01/51/26/75/1000_F_151267526_CCzkZ7cM0p2dTalSL6RQIoDxr2VUXEkZ.jpg"
   />
             <Card.Body>
@@ -79,7 +79,7 @@ const Home = () => {
               <Button variant="primary">View</Button>
             </Card.Body>
           </Card>
-          <Card>
+          <Card style={{ margin : '12px' }} >
             <Card.Img variant="top" className="aspect-video" src="https://media.istockphoto.com/id/1338005379/vector/flat-design-backend-of-developer-concept.jpg?s=2048x2048&w=is&k=20&c=mFUonUH4WrA2yfn2VGOXz9ugBpXhi75qfm0pwWMPXMs="  />
             <Card.Body>
               <Card.Title>Backend Development</Card.Title>
@@ -92,8 +92,8 @@ const Home = () => {
             </Card.Body>
           </Card>
           </CardGroup>
-          <CardGroup>
-          <Card>
+          <CardGroup style={{ display: 'flex', flexWrap: 'wrap' }}>
+          <Card style={{ margin : '12px' }}>
             <Card.Img variant="top" className="aspect-video" src="https://images.unsplash.com/photo-1607252650355-f7fd0460ccdb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" />
             <Card.Body>
               <Card.Title>Android Development</Card.Title>
@@ -105,8 +105,8 @@ const Home = () => {
                   <Button variant="primary">View</Button>
             </Card.Body>
           </Card>
-          <Card>
-            <Card.Img variant="top" src="https://www.jrebel.com/sites/default/files/image/2020-05/image-blog-revel-top-java-tools.jpg"/>
+          <Card style={{ margin : '12px' }}>
+            <Card.Img variant="top" className="aspect-video" src="https://www.jrebel.com/sites/default/files/image/2020-05/image-blog-revel-top-java-tools.jpg"/>
             <Card.Body>
               <Card.Title>Java Development</Card.Title>
               <Card.Text>
@@ -117,8 +117,8 @@ const Home = () => {
                   <Button variant="primary">View</Button>
             </Card.Body>
           </Card>
-          <Card>
-            <Card.Img variant="top" src="https://plus.unsplash.com/premium_photo-1674506652942-409ccf9ee0f8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1315&q=80" />
+          <Card style={{ margin : '12px' }}>
+            <Card.Img variant="top" className="aspect-video" src="https://plus.unsplash.com/premium_photo-1674506652942-409ccf9ee0f8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1315&q=80" />
             <Card.Body>
               <Card.Title>Cyber Security</Card.Title>
               <Card.Text>
@@ -130,9 +130,9 @@ const Home = () => {
             </Card.Body>
           </Card>
           </CardGroup>
-          <CardGroup>
-          <Card>
-            <Card.Img variant="top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRku6Jfp5TuXEqAU8B3eORY-BxPgPH5ul0jc19eVJqz&s"/>
+          <CardGroup style={{ display: 'flex', flexWrap: 'wrap' }}>
+          <Card style={{ margin : '12px' }}>
+            <Card.Img variant="top" className="aspect-video" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRku6Jfp5TuXEqAU8B3eORY-BxPgPH5ul0jc19eVJqz&s"/>
             <Card.Body>
               <Card.Title>Flutter</Card.Title>
               <Card.Text>
@@ -142,8 +142,8 @@ const Home = () => {
                   <Button variant="primary">View</Button>
                   </Card.Body>
           </Card>
-          <Card>
-            <Card.Img variant="top" src="https://img.freepik.com/free-vector/gradient-ui-ux-background_23-2149052117.jpg" />
+          <Card style={{ margin : '12px' }}>
+            <Card.Img variant="top" className="aspect-video" src="https://img.freepik.com/free-vector/gradient-ui-ux-background_23-2149052117.jpg" />
             <Card.Body>
               <Card.Title>UX design</Card.Title>
               <Card.Text>
@@ -154,8 +154,8 @@ const Home = () => {
                   <Button variant="primary">View</Button>
             </Card.Body>
           </Card>
-          <Card>
-            <Card.Img variant="top" src="https://blog.eduonix.com/wp-content/uploads/2018/09/Scientific-Python-Scipy.jpg" />
+          <Card style={{ margin : '12px' }}>
+            <Card.Img variant="top" className="aspect-video" src="https://blog.eduonix.com/wp-content/uploads/2018/09/Scientific-Python-Scipy.jpg" />
             <Card.Body>
               <Card.Title>Python</Card.Title>
               <Card.Text>
