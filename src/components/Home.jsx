@@ -39,9 +39,18 @@ const Home = () => {
         </Container>
       </Navbar>
 
-      <div className="cards">
+      <div className="row mt-1 mx-2 rounded-md py-lg-5 bg-title bg-no-repeat bg-cover bg-center">
+        <div className="col-lg-6 col-md-8 mx-auto backdrop-blur-sm ">
+          <p className="lead text-body-secondary text-center text-white font-serif font-extrabold text-xl backdrop-blur-sm">
+            This is coding blog website. Website to learn new things and explore
+            new technology. A great place to learn language
+          </p>
+        </div>
+      </div>
+
+      <div className="cards my-5 mx-5">
         <CardGroup>
-          <Card>
+          <Card className="mx-2">
             <Card.Img variant="top" src="holder.js/100px160" />
             <Card.Body>
               <Card.Title>Card title</Card.Title>
@@ -52,7 +61,7 @@ const Home = () => {
               </Card.Text>
             </Card.Body>
           </Card>
-          <Card>
+          <Card className="mx-2">
             <Card.Img variant="top" src="holder.js/100px160" />
             <Card.Body>
               <Card.Title>Card title</Card.Title>
