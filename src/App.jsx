@@ -61,7 +61,7 @@ function App() {
               <Route path="/cyber" element={<Cyber />} />
               <Route path="/flutter" element={<Flutter />} />
               <Route path="/java" element={<Java />} />
-              <Route path="/python" element={<Python />} />
+              <Route path="/py" element={<Python />} />
               <Route path="/ui" element={<UI />} />
               <Route path="/andr" element={<Android />} />
             </Routes>

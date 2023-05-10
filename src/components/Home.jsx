@@ -8,7 +8,7 @@ const Home = () => {
   return (
     <>
       <Header />
-      <div className="row mt-1 mx-2 rounded-md py-lg-5 bg-title bg-no-repeat bg-cover bg-center">
+      <div className=" header row mt-1 mx-2 rounded-md py-lg-5 bg-title bg-no-repeat bg-cover bg-center">
         <div className="col-lg-6 col-md-8 mx-auto backdrop-blur-sm ">
           <p className="lead text-body-secondary text-center text-white font-serif font-extrabold text-xl backdrop-blur-sm">
             This is coding blog website. Website to learn new things and explore
@@ -161,7 +161,9 @@ const Home = () => {
                 functional apps. Join our course and start creating your own
                 apps in no time!
               </Card.Text>
-              <Button variant="primary">View</Button>
+              <Button variant="primary" onClick={() => navigate("/flutter")}>
+                View
+              </Button>
             </Card.Body>
           </Card>
           <Card style={{ margin: "12px" }}>
@@ -180,7 +182,9 @@ const Home = () => {
                 our course will equip you with the tools to design exceptional
                 user experiences
               </Card.Text>
-              <Button variant="primary">View</Button>
+              <Button variant="primary" onClick={() => navigate("/flutter")}>
+                View
+              </Button>
             </Card.Body>
           </Card>
           <Card style={{ margin: "12px" }}>
