@@ -1,5 +1,13 @@
 import React from "react";
 import { useUserAuth } from "../context/AuthContext";
+import {
+  Button,
+  Card,
+  CardGroup,
+  Container,
+  Nav,
+  Navbar,
+} from "react-bootstrap";
 
 const Home = () => {
   const { user, logOut } = useUserAuth();
@@ -13,39 +21,59 @@ const Home = () => {
   };
   return (
     <>
-      {/* <div className="p-4 mt-3 text-center border border-gray-600">
-        Hello Welcome
-        <br />
-        {user && user.displayName}
-      </div>
-      <div className="grid gap-2">
-        <button className="p-3 bg-blue-600 text-white" onClick={handleLogOut}>
-          Log Out
-        </button>
-      </div> */}
-      <div className="navbar">
-        <nav className="listItems p-3 shadow-xl flex justify-center items-center">
-          <ul className="flex">
-            <li className="mx-2 cursor-pointer font-serif text-lg text-blue-700 hover:underline">
-              Home
-            </li>
-            <li className="mx-2 cursor-pointer font-serif text-lg text-blue-700 hover:underline">
-              About
-            </li>
-            <li className="mx-2 cursor-pointer font-serif text-lg text-blue-700 hover:underline">
-              Services
-            </li>
-            <li className="mx-2 cursor-pointer font-serif text-lg text-blue-700 hover:underline">
-              ContactUs
-            </li>
-          </ul>
-          <div className="flex w-1/2 justify-end">
-            <span className="font-serif text-lg right-0 cursor-pointer text-orange-600 font-bold">
-              {user && user.displayName ? user.displayName : user.email}
-            </span>
-          </div>
-        </nav>
-        {/* Alwin Work */}
+      <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+        <Container>
+          <Navbar.Brand href="#">Coding Blog</Navbar.Brand>
+          <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+          <Navbar.Collapse id="responsive-navbar-nav">
+            <Nav className="me-auto">
+              <Nav.Link href="#">About</Nav.Link>
+              <Nav.Link href="#">Services</Nav.Link>
+            </Nav>
+            <Nav>
+              <Nav.Link>
+                {user && user.displayName ? user.displayName : user.email}
+              </Nav.Link>
+            </Nav>
+          </Navbar.Collapse>
+        </Container>
+      </Navbar>
+
+      <div className="cards mt-3">
+        <CardGroup>
+          <Card>
+            <Card.Img variant="top" src="holder.js/100px160" />
+            <Card.Body>
+              <Card.Title>Card title</Card.Title>
+              <Card.Text>
+                This is a wider card with supporting text below as a natural
+                lead-in to additional content. This content is a little bit
+                longer.
+              </Card.Text>
+            </Card.Body>
+          </Card>
+          <Card>
+            <Card.Img variant="top" src="holder.js/100px160" />
+            <Card.Body>
+              <Card.Title>Card title</Card.Title>
+              <Card.Text>
+                This card has supporting text below as a natural lead-in to
+                additional content.
+              </Card.Text>
+            </Card.Body>
+          </Card>
+          <Card>
+            <Card.Img variant="top" src="holder.js/100px160" />
+            <Card.Body>
+              <Card.Title>Card title</Card.Title>
+              <Card.Text>
+                This is a wider card with supporting text below as a natural
+                lead-in to additional content. This card has even longer content
+                than the first to show that equal height action.
+              </Card.Text>
+            </Card.Body>
+          </Card>
+        </CardGroup>
       </div>
     </>
   );

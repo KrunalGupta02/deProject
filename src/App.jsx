@@ -2,6 +2,8 @@ import { useEffect, useState } from "react";
 import "./App.css";
 import RingLoader from "react-spinners/RingLoader";
 import "./App.css";
+import "bootstrap/dist/css/bootstrap.min.css";
+
 import Login from "./components/Login";
 import Signup from "./components/Signup";
 import Home from "./components/Home";
