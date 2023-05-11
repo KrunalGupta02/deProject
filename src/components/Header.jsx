@@ -26,10 +26,7 @@ const Header = () => {
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
-            <Nav className="me-auto">
-              <Nav.Link href="#">About</Nav.Link>
-              <Nav.Link href="#">Services</Nav.Link>
-            </Nav>
+            <Nav className="me-auto"></Nav>
             <Nav>
               <Nav.Link>
                 {user && user.displayName ? user.displayName : user.email}

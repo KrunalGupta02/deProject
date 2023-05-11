@@ -19,7 +19,7 @@ const Home = () => {
 
       <div className="cards">
         <CardGroup className="my-4">
-          <Card style={{ margin: "12px" }}>
+          <Card className="shadow-lg" style={{ margin: "12px" }}>
             <Card.Img
               variant="top"
               className="aspect-video"
@@ -35,12 +35,16 @@ const Home = () => {
                 stay ahead of the game and take your business to the next level.
                 Join the blockchain revolution today!
               </Card.Text>
-              <Button variant="primary" onClick={() => navigate("/block")}>
+              <Button
+                className="w-full"
+                variant="primary"
+                onClick={() => navigate("/block")}
+              >
                 View
               </Button>
             </Card.Body>
           </Card>
-          <Card style={{ margin: "12px" }}>
+          <Card className="shadow-lg" style={{ margin: "12px" }}>
             <Card.Img
               variant="top"
               className="aspect-video"
@@ -56,12 +60,16 @@ const Home = () => {
                 with our comprehensive guide. Start building your frontend
                 skills today!
               </Card.Text>
-              <Button variant="primary" onClick={() => navigate("/front")}>
+              <Button
+                className="w-full"
+                variant="primary"
+                onClick={() => navigate("/front")}
+              >
                 View
               </Button>
             </Card.Body>
           </Card>
-          <Card style={{ margin: "12px" }}>
+          <Card className="shadow-lg" style={{ margin: "12px" }}>
             <Card.Img
               variant="top"
               className="aspect-video"
@@ -76,14 +84,18 @@ const Home = () => {
                 beautiful designs, efficient code, and seamless user
                 experiences. Let us help you turn your dream app into a reality
               </Card.Text>
-              <Button variant="primary" onClick={() => navigate("/back")}>
+              <Button
+                className="w-full"
+                variant="primary"
+                onClick={() => navigate("/back")}
+              >
                 View
               </Button>
             </Card.Body>
           </Card>
         </CardGroup>
         <CardGroup style={{ display: "flex", flexWrap: "wrap" }}>
-          <Card style={{ margin: "12px" }}>
+          <Card className="shadow-lg" style={{ margin: "12px" }}>
             <Card.Img
               variant="top"
               className="aspect-video"
@@ -98,12 +110,16 @@ const Home = () => {
                 beautiful designs, efficient code, and seamless user
                 experiences. Let us help you turn your dream app into a reality
               </Card.Text>
-              <Button variant="primary" onClick={() => navigate("/andr")}>
+              <Button
+                className="w-full"
+                variant="primary"
+                onClick={() => navigate("/andr")}
+              >
                 View
               </Button>
             </Card.Body>
           </Card>
-          <Card style={{ margin: "12px" }}>
+          <Card className="shadow-lg" style={{ margin: "12px" }}>
             <Card.Img
               variant="top"
               className="aspect-video"
@@ -119,12 +135,16 @@ const Home = () => {
                 applications. Enroll now and start your journey to becoming a
                 Java developer!
               </Card.Text>
-              <Button variant="primary" onClick={() => navigate("/java")}>
+              <Button
+                className="w-full"
+                variant="primary"
+                onClick={() => navigate("/java")}
+              >
                 View
               </Button>
             </Card.Body>
           </Card>
-          <Card style={{ margin: "12px" }}>
+          <Card className="shadow-lg" style={{ margin: "12px" }}>
             <Card.Img
               variant="top"
               className="aspect-video"
@@ -139,14 +159,18 @@ const Home = () => {
                 secure your network. Sign up today to gain the knowledge and
                 skills needed to stay safe in the digital world
               </Card.Text>
-              <Button variant="primary" onClick={() => navigate("/cyber")}>
+              <Button
+                className="w-full"
+                variant="primary"
+                onClick={() => navigate("/cyber")}
+              >
                 View
               </Button>
             </Card.Body>
           </Card>
         </CardGroup>
         <CardGroup style={{ display: "flex", flexWrap: "wrap" }}>
-          <Card style={{ margin: "12px" }}>
+          <Card className="shadow-lg" style={{ margin: "12px" }}>
             <Card.Img
               variant="top"
               className="aspect-video"
@@ -161,12 +185,16 @@ const Home = () => {
                 functional apps. Join our course and start creating your own
                 apps in no time!
               </Card.Text>
-              <Button variant="primary" onClick={() => navigate("/flutter")}>
+              <Button
+                className="w-full"
+                variant="primary"
+                onClick={() => navigate("/flutter")}
+              >
                 View
               </Button>
             </Card.Body>
           </Card>
-          <Card style={{ margin: "12px" }}>
+          <Card className="shadow-lg" style={{ margin: "12px" }}>
             <Card.Img
               variant="top"
               className="aspect-video"
@@ -182,12 +210,16 @@ const Home = () => {
                 our course will equip you with the tools to design exceptional
                 user experiences
               </Card.Text>
-              <Button variant="primary" onClick={() => navigate("/flutter")}>
+              <Button
+                className="w-full"
+                variant="primary"
+                onClick={() => navigate("/flutter")}
+              >
                 View
               </Button>
             </Card.Body>
           </Card>
-          <Card style={{ margin: "12px" }}>
+          <Card className="shadow-lg" style={{ margin: "12px" }}>
             <Card.Img
               variant="top"
               className="aspect-video"
@@ -202,7 +234,11 @@ const Home = () => {
                 guidance, you'll be able to develop your own Python programs in
                 no time
               </Card.Text>
-              <Button variant="primary" onClick={() => navigate("/py")}>
+              <Button
+                className="w-full"
+                variant="primary"
+                onClick={() => navigate("/py")}
+              >
                 View
               </Button>
             </Card.Body>
